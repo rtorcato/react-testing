@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = ({ text }) => {
   return (
-    <header>
-      <h2>{text}</h2>
+    <header data-testid="hitag" className="fancy-h1">
+      <h1>{text}</h1>
     </header>
   );
 };
